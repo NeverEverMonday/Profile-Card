@@ -35,6 +35,10 @@
   flex-wrap: wrap;
 }
 
+.profilePic {
+  border: white solid 5px;
+}
+
 #name {
   font-size: 18px;
   background-color: pink;
@@ -56,10 +60,17 @@
   flex-basis: 100%;
   background-color: orange;
   margin-top: 0;
+
 }
 
 .nameAge {
   display: flex;
+  border: solid black 2px;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding-top: 25px;
 }
 
 .stats {
