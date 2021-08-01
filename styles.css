@@ -1,0 +1,80 @@
+
+/* Page Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Class Styles */
+.MasterContainer {
+  display: flex;
+  background-color: blue;
+}
+
+.MainDataBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+  height: 100vh;
+  justify-content: center;
+  border-top-left-radius: 50%;
+}
+
+.swirl {
+  border-radius: 10px 10px 0 0;
+  height: 30%;
+}
+
+.PersonalData {
+  display: flex;
+  background-color: white;
+  height: 30%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#name {
+  font-size: 18px;
+  background-color: pink;
+}
+
+#age {
+  padding-left: 15px;
+  background-color: lightgreen;
+  align-self: center;
+
+}
+
+#age,
+#city {
+  color: hsl(0, 0%, 59%);
+}
+
+#city {
+  flex-basis: 100%;
+  background-color: orange;
+  margin-top: 0;
+}
+
+.nameAge {
+  display: flex;
+}
+
+.stats {
+  display: flex;
+  background-color: red;
+  height: 15%;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+.stats p {
+  color: hsl(0, 0%, 59%);
+  margin-top: 0;
+}
