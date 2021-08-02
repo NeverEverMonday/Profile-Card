@@ -8,45 +8,51 @@
 .MasterContainer {
   display: flex;
   background-color: blue;
+  justify-content: center;
 }
 
 .MainDataBox {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   padding: 50px 10px;
   height: 100vh;
   justify-content: center;
   border-top-left-radius: 50%;
+  position: relative;
 }
 
 .swirl {
+  width: 100%;
   border-radius: 10px 10px 0 0;
   height: 30%;
 }
 
 .PersonalData {
   display: flex;
+  flex-direction: row;
+  border-bottom: lightgrey solid 1px;
   background-color: white;
   height: 30%;
   width: 100%;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
 .profilePic {
   border: white solid 5px;
+  position: absolute;
+  border-radius: 50% 50%;
+  top: 35%;
 }
 
 #name {
   font-size: 18px;
-  background-color: pink;
 }
 
 #age {
   padding-left: 15px;
-  background-color: lightgreen;
   align-self: center;
 
 }
@@ -57,25 +63,23 @@
 }
 
 #city {
-  flex-basis: 100%;
-  background-color: orange;
   margin-top: 0;
-
+  width: 100%;
+  justify: center;
 }
 
 .nameAge {
   display: flex;
-  border: solid black 2px;
   height: 60%;
   align-items: center;
   justify-content: center;
-  width: 80%;
-  padding-top: 25px;
+  width: 100%;
+  padding-top: 55px;
 }
 
 .stats {
   display: flex;
-  background-color: red;
+  background-color: white;
   height: 15%;
   width: 100%;
   border-radius: 0 0 10px 10px;
