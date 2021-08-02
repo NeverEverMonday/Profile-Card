@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
 
 /* Page Styles */
 * {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 0 0 0;
+}
+
 /* Class Styles */
 .MasterContainer {
   display: flex;
-  background-color: red;
+  background-color: hsl(185, 75%, 39%);
   justify-content: center;
 }
 
@@ -19,7 +24,7 @@
   position: fixed;
   height: 50%;
   width: 50%;
-  background-color: hsl(185, 75%, 39%);
+  background-color: hsl(180, 60%, 50%);
   z-index: 1;
 }
 
@@ -30,7 +35,7 @@
   position: fixed;
   height: 50%;
   width: 50%;
-  background-color: hsl(185, 75%, 39%);
+  background-color: hsl(180, 60%, 50%);
   z-index: 1;
 
 }
@@ -94,6 +99,7 @@
   width: 100%;
   justify: center;
   height: 35%;
+  font-family: Kumbh Sans;
 }
 
 .nameAge {
@@ -115,9 +121,12 @@
   padding-left: 40px;
   padding-right: 40px;
   align-items: center;
+  text-align: center;
+  font-family: Kumbh Sans:wght;
 }
 
 .stats p {
   color: hsl(0, 0%, 59%);
   margin-top: 0;
+  font-family: Kumbh Sans;
 }
